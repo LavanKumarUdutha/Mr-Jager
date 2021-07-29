@@ -1,0 +1,739 @@
+*{
+	padding: 0;
+	margin: 0;
+	row-sizing:border-row
+}
+
+body{
+	overflow-x:hidden;
+	background: #0A043C/*#141D2B*/;
+	
+}
+
+h1{
+	font-family: 'Otomanopee One', sans-serif;
+}
+
+h3 {
+  font-size: 50px;
+  text-align: center;
+  color: #fff;
+  font-family: 'Otomanopee One', sans-serif;
+/*  font-family: 'Roboto Condensed', sans-serif;*/
+/*  animation: glow 1s ease-in-out infinite alternate;*/
+}
+
+/*@keyframes glow {
+  from {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
+  }
+  to {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #0073e6, 0 0 40px #0073e6, 0 0 50px #0073e6, 0 0 60px #0073e6, 0 0 70px #0073e6;
+  }
+}*/
+
+p{
+	font-size:50px;
+	font-family: 'Otomanopee One', sans-serif;
+}
+
+#mylogo{
+	content:url("mylogo1.png");
+	height:80px;
+	width:200px;
+	background-color:;
+}
+
+
+.carousel-item{
+	width:100%;
+	height:85vh;
+}
+
+ 
+
+hr.line{
+	background:#3eff15;
+	height:2px;
+	width:250px;
+	margin:auto;
+}
+									/* about section starts here */
+#container {
+	position:relative;
+	width:1366px;
+	height:700px;
+	margin:24px auto;
+/*	background:green; */
+	}
+	
+#container .box
+	{
+	position:relative;
+	width:calc(335px - 30px);
+	height:calc(650px - 30px);
+	background-color:#0A043C;
+	float:left;
+	margin:13px ;
+	box-sizing:border-box;
+	overflow:hidden;
+	border-radius:10px;
+	box-shadow: 0 15px 20px 0 rgba(0, 0, 0, 5), 0 6px 20px 0 rgba(0, 0, 0, 4);
+	
+	}
+
+#container .box .image-a {
+   		position:absolute;
+		content:url("https://cdn.wallpapersafari.com/14/74/bkTE0g.jpg");
+		top:0;
+		left:0;
+		width: 394px;
+		height:500px;
+		transition:0.5s;
+		z-index:1;	
+		
+		}
+	
+	#container .box:hover .image-a{
+		top:5px;
+		left:calc(50% - 45px);
+		width:90px;
+		height:80px;
+		border-radius: 50%;
+		} 
+	
+	#container .box .image-a .fa{
+		position: absolute;
+		top:50%;
+		left:50%;
+		transform: translate(-50%,-50%);
+		font-size:80px;
+		transition:0.5s;
+		color:#fff;
+		}
+		
+	#container .box:hover .image-a .fa{
+		font-size:40px;
+		}
+
+	#container .box .content{           
+       	position:absolute;
+	top:100%;
+	height:calc(100% -100px);
+	text-align:center;
+	padding:20px;
+	transition:0.5s;
+	opacity: 50;		
+	}
+
+	#container .box:hover .content{
+		top:80px;
+		opacity:50;
+		}
+
+	#container .box .content h3{
+	margin:0;
+	padding:0;
+	color:white;
+	font-size:24px;
+	}
+
+	#container .box .content p{
+	margin:5;
+	padding:0;
+	color:white;
+	font-size:14px;
+	}
+
+
+
+
+
+
+
+
+	#container .box .image-b {
+   		position:absolute;
+		content:url("https://cdn.wallpapersafari.com/14/74/bkTE0g.jpg");
+		top:0;
+		left:0;
+		width: 394px;
+		height:500px;
+		transition:0.5s;
+		z-index:1;	
+		
+		}
+	
+	#container .box:hover .image-b{
+		top:5px;
+		left:calc(50% - 45px);
+		width:90px;
+		height:80px;
+		border-radius: 50%;
+		} 
+	
+	#container .box .image-b .fa{
+		position: absolute;
+		top:50%;
+		left:50%;
+		transform: translate(-50%,-50%);
+		font-size:80px;
+		transition:0.5s;
+		color:#fff;
+		}
+		
+	#container .box:hover .image-b .fa{
+		font-size:40px;
+		}
+
+
+
+
+
+
+
+	#container .box .image-c {
+   		position:absolute;
+		content:url("https://cdn.wallpapersafari.com/14/74/bkTE0g.jpg");
+		top:0;
+		left:0;
+		width: 394px;
+		height:500px;
+		transition:0.5s;
+		z-index:1;	
+		
+		}
+	
+	#container .box:hover .image-c{
+		top:5px;
+		left:calc(50% - 45px);
+		width:90px;
+		height:80px;
+		border-radius: 50%;
+		} 
+	
+	#container .box .image-c .fa{
+		position: absolute;
+		top:50%;
+		left:50%;
+		transform: translate(-50%,-50%);
+		font-size:80px;
+		transition:0.5s;
+		color:#fff;
+		}
+		
+	#container .box:hover .image-c .fa{
+		font-size:40px;
+		}
+
+				/*about section ends here*/
+
+
+						
+						
+
+
+
+
+						/*resource section starts here*/
+
+#resource {
+	position:relative;
+	width:650px;
+	height:600px;
+	margin:24px auto;
+/*	background:green; */
+	}
+	
+#resource .box
+	{
+	position:relative;
+	width:calc(630px - 30px);
+	height:calc(530px - 30px);
+	background-color:#03506F;
+	float:left;
+	margin:13px ;
+	box-sizing:border-box;
+	overflow:hidden;
+	border-radius:10px;
+	box-shadow: 0 15px 20px 0 rgba(0, 0, 0, 5), 0 6px 20px 0 rgba(0, 0, 0, 4);
+	
+	}
+
+#resource .box .image-a {
+   		position:absolute;
+		content:url("https://cdn.wallpapersafari.com/14/74/bkTE0g.jpg");
+		top:0;
+		left:0;
+		width: 700px;
+		height:500px;
+		transition:0.5s;
+		z-index:1;	
+		
+		}
+	
+	#resource .box:hover .image-a{
+		top:5px;
+		left:calc(50% - 45px);
+		width:90px;
+		height:80px;
+		border-radius: 50%;
+		} 
+	
+	#resource .box .image-a .fa{
+		position: absolute;
+		top:50%;
+		left:50%;
+		transform: translate(-50%,-50%);
+		font-size:80px;
+		transition:0.5s;
+		color:#fff;
+		}
+		
+	#resource .box:hover .image-a .fa{
+		font-size:40px;
+		}
+
+	#resource .box .content{           
+       	position:absolute;
+	top:100%;
+	height:calc(100% -100px);
+	text-align:center;
+	padding:20px;
+	transition:0.5s;
+	opacity: 50;		
+	}
+
+	#resource .box:hover .content{
+		top:80px;
+		opacity:50;
+		}
+
+	#resource .box .content h3{
+	margin:0;
+	padding:0;
+	color:white;
+	font-size:24px;
+	}
+
+	#resource .box .content p{
+	margin:5;
+	padding:0;
+	color:white;
+	font-size:14px;
+	}
+	
+	
+	
+			/*resource section ends here*/
+			
+			
+			
+			
+			/*lab section starts here*/
+
+
+
+#labs {
+	position:relative;
+	width:650px;
+	height:600px;
+	margin:24px auto;
+	left:70px;
+/*	background:green; */
+	}
+	
+#labs .box
+	{
+	position:relative;
+	width:calc(500px - 30px);
+	height:calc(500px - 30px);
+	background-color:#0A043C;
+	float:left;
+	margin:13px ;
+	box-sizing:border-box;
+	overflow:hidden;
+	border-radius:10px;
+	box-shadow: 0 15px 20px 0 rgba(0, 0, 0, 5), 0 6px 20px 0 rgba(0, 0, 0, 4);
+	
+	}
+
+#labs .box .image-a {
+   		position:absolute;
+		content:url("https://cdn.wallpapersafari.com/14/74/bkTE0g.jpg");
+		top:0;
+		left:0;
+		width: 700px;
+		height:500px;
+		transition:0.5s;
+		z-index:1;	
+		
+		}
+	
+	#labs .box:hover .image-a{
+		top:5px;
+		left:calc(50% - 45px);
+		width:90px;
+		height:80px;
+		border-radius: 50%;
+		} 
+	
+	#labs .box .image-a .fa{
+		position: absolute;
+		top:50%;
+		left:50%;
+		transform: translate(-50%,-50%);
+		font-size:80px;
+		transition:0.5s;
+		color:#fff;
+		}
+		
+	#labs .box:hover .image-a .fa{
+		font-size:40px;
+		}
+
+	#labs .box .content{           
+       	position:absolute;
+	top:100%;
+	height:calc(100% -100px);
+	text-align:center;
+	padding:20px;
+	transition:0.5s;
+	opacity: 50;		
+	}
+
+	#labs .box:hover .content{
+		top:80px;
+		opacity:50;
+		}
+
+	#labs .box .content h3{
+	margin:0;
+	padding:0;
+	color:white;
+	font-size:24px;
+	}
+
+	#labs .box .content p{
+	margin:5;
+	padding:0;
+	color:white;
+	font-size:14px;
+	}
+
+
+
+			/*lab section ends here*/
+			
+			
+			/*ctf section starts here*/
+			
+#ctf {
+	position:relative;
+	width:650px;
+	height:600px;
+	margin:24px auto;
+/*	background:green; */
+	}
+	
+#ctf .box
+	{
+	position:relative;
+	width:calc(600px - 30px);
+	height:calc(500px - 30px);
+	background-color:#03506F;
+	float:left;
+	margin:13px ;
+	box-sizing:border-box;
+	overflow:hidden;
+	border-radius:10px;
+	box-shadow: 0 15px 20px 0 rgba(0, 0, 0, 5), 0 6px 20px 0 rgba(0, 0, 0, 4);
+	
+	}
+
+#ctf .box .image-a {
+   		position:absolute;
+		content:url("https://cdn.wallpapersafari.com/14/74/bkTE0g.jpg");
+		top:0;
+		left:0;
+		width: 700px;
+		height:500px;
+		transition:0.5s;
+		z-index:1;	
+		
+		}
+	
+	#ctf .box:hover .image-a{
+		top:5px;
+		left:calc(50% - 45px);
+		width:90px;
+		height:80px;
+		border-radius: 50%;
+		} 
+	
+	#ctf .box .image-a .fa{
+		position: absolute;
+		top:50%;
+		left:50%;
+		transform: translate(-50%,-50%);
+		font-size:80px;
+		transition:0.5s;
+		color:#fff;
+		}
+		
+	#ctf .box:hover .image-a .fa{
+		font-size:40px;
+		}
+
+	#ctf .box .content{           
+       	position:absolute;
+	top:100%;
+	height:calc(100% -100px);
+	text-align:center;
+	padding:20px;
+	transition:0.5s;
+	opacity: 50;		
+	}
+
+	#ctf .box:hover .content{
+		top:80px;
+		opacity:50;
+		}
+
+	#ctf .box .content h3{
+	margin:0;
+	padding:0;
+	color:white;
+	font-size:24px;
+	}
+
+	#ctf .box .content p{
+	margin:5;
+	padding:0;
+	color:white;
+	font-size:14px;
+	}			
+			
+				/*ctf section ends here*/
+				
+				
+				
+				/*announcement section starts here*/
+				
+#announcement {
+	position:relative;
+	width:650px;
+	height:600px;
+	margin:24px auto;
+/*	background:green; */
+	}
+	
+/*#announcement .box
+	{
+	position:relative;
+	width:calc(600px - 30px);
+	height:calc(500px - 30px);
+	background-color:#03506F;
+	float:left;
+	margin:13px ;
+	box-sizing:border-box;
+	overflow:hidden;
+	border-radius:10px;
+	box-shadow: 0 15px 20px 0 rgba(0, 0, 0, 5), 0 6px 20px 0 rgba(0, 0, 0, 4);
+	
+	}
+
+#announcement .box .image-a {
+   		position:absolute;
+		content:url("https://cdn.wallpapersafari.com/14/74/bkTE0g.jpg");
+		top:0;
+		left:0;
+		width: 700px;
+		height:500px;
+		transition:0.5s;
+		z-index:1;	
+		
+		}
+	
+	#announcement .box:hover .image-a{
+		top:5px;
+		left:calc(50% - 45px);
+		width:90px;
+		height:80px;
+		border-radius: 50%;
+		} 
+	
+	#announcement .box .image-a .fa{
+		position: absolute;
+		top:50%;
+		left:50%;
+		transform: translate(-50%,-50%);
+		font-size:80px;
+		transition:0.5s;
+		color:#fff;
+		}
+		
+	#announcement .box:hover .image-a .fa{
+		font-size:40px;
+		}
+
+	#announcement .box .content{           
+       	position:absolute;
+	top:100%;
+	height:calc(100% -100px);
+	text-align:center;
+	padding:20px;
+	transition:0.5s;
+	opacity: 50;		
+	}
+
+	#announcement .box:hover .content{
+		top:80px;
+		opacity:50;
+		}
+
+	#announcement .box .content h3{
+	margin:0;
+	padding:0;
+	color:white;
+	font-size:24px;
+	}
+
+	#announcement .box .content p{
+	margin:5;
+	padding:0;
+	color:white;
+	font-size:14px;
+	}*/
+				
+				
+				
+				
+		/*announcement section ends here*/
+		
+		
+		
+		/*faq section starts here*/
+
+#faq {
+	position:relative;
+	width:1200px;
+	height:600px;
+	margin:24px auto;
+/*	background:green; */
+	}
+	
+#faq .box
+	{
+	position:relative;
+	width:calc(400px - 30px);
+	height:calc(500px - 30px);
+	background-color:#03506F;
+	float:left;
+	left:55px;
+	margin:15px ;
+	box-sizing:border-box;
+	overflow:hidden;
+	border-radius:10px;
+	box-shadow: 0 15px 20px 0 rgba(0, 0, 0, 5), 0 6px 20px 0 rgba(0, 0, 0, 4);
+	}
+
+#faq .box .image-a {
+   		position:absolute;
+		content:url("https://cdn.wallpapersafari.com/14/74/bkTE0g.jpg");
+		top:0;
+		left:-150px;
+		width: 700px;
+		height:500px;
+		transition:0.5s;
+		z-index:1;	
+		
+		}
+	
+	#faq .box:hover .image-a{
+		top:5px;
+		left:calc(50% - 45px);
+		width:90px;
+		height:80px;
+		border-radius: 50%;
+		} 
+	
+	#faq .box .image-a .fa{
+		position: absolute;
+		top:50%;
+		left:50%;
+		transform: translate(-50%,-50%);
+		font-size:80px;
+		transition:0.5s;
+		color:#fff;
+		}
+		
+	#faq .box:hover .image-a .fa{
+		font-size:40px;
+		}
+
+	#faq .box .content{           
+       	position:absolute;
+	top:100%;
+	height:calc(100% -100px);
+	text-align:center;
+	padding:20px;
+	transition:0.5s;
+	opacity: 50;		
+	}
+
+	#faq .box:hover .content{
+		top:80px;
+		opacity:50;
+		}
+
+	#faq .box .content h3{
+	margin:0;
+	padding:0;
+	color:white;
+	font-size:24px;
+	}
+
+	#faq .box .content p{
+	margin:5;
+	padding:0;
+	color:white;
+	font-size:14px;
+	}
+		
+	
+#faq .box .image-b {
+   		position:absolute;
+		content:url("https://cdn.wallpapersafari.com/14/74/bkTE0g.jpg");
+		top:0;
+		left:0;
+		width: 700px;
+		height:500px;
+		transition:0.5s;
+		z-index:1;	
+		
+		}
+	
+	#faq .box:hover .image-b{
+		top:5px;
+		left:calc(50% - 45px);
+		width:90px;
+		height:80px;
+		border-radius: 50%;
+		} 
+	
+	#faq .box .image-b .fa{
+		position: absolute;
+		top:50%;
+		left:50%;
+		transform: translate(-50%,-50%);
+		font-size:80px;
+		transition:0.5s;
+		color:#fff;
+		}
+		
+	#faq .box:hover .image-b .fa{
+		font-size:40px;
+		}	
+		
+		/*faq section ends here*/
