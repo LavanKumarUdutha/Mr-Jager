@@ -1,0 +1,896 @@
+*{
+	padding: 0;
+	margin: 0;
+	row-sizing:border-row
+}
+
+body{
+	overflow-x:hidden;
+	background: #0A043C/*#141D2B*/;
+	
+}
+
+
+.navbar{
+	
+	font-family:Rubik;
+	background-color:#0A043C;
+	
+
+}
+
+h1{
+	font-family: 'Barlow Condensed', sans-serif;
+	font-weight:700;
+	font-size:80px;
+	
+}
+
+h3 {
+  font-weight:700;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+/*  font-family: 'Roboto Condensed', sans-serif;*/
+/*  animation: glow 1s ease-in-out infinite alternate;*/
+}
+
+/*@keyframes glow {
+  from {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
+  }
+  to {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #0073e6, 0 0 40px #0073e6, 0 0 50px #0073e6, 0 0 60px #0073e6, 0 0 70px #0073e6;
+  }
+}*/
+
+p{
+	font-size:50px;
+	font-family: 'Roboto', sans-serif;
+}
+
+#mylogo{
+	content:url("mylogo1.png");
+	height:70px;
+	width:200px;
+	background-color:;
+}
+
+
+.carousel-item{
+	width:100%;
+	height:100vh;
+}
+
+ 
+
+hr.line{
+	background:#3eff15;
+	height:2px;
+	width:300px;
+	margin:auto;
+}
+
+
+
+
+#video_wrapper
+{
+ margin:0px;
+ padding:0px;
+ margin-left:150px;
+ margin-right:150px;
+}
+#video_wrapper video
+{
+ 
+ top: 50%; left: 50%;
+ z-index: 3;
+ min-width: 100%;
+ min-height: 100%;
+ width: 50%;
+ height: 100%;
+/* transform: translate(-50%, -50%);*/
+}
+#wrapper
+{
+ position:relative;
+ text-align:center;
+ margin:0 auto;
+ padding:0px;
+ width:995px;
+ z-index:2;
+}
+/*h1 
+{
+ margin-top:250px;	
+ color:white;
+ font-size:45px;
+ background-color: rgba(112, 112, 112, 0.74);
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+									/* about section starts here */
+#container {
+	position:relative;
+	width:1366px;
+	height:1000px;
+	margin:24px auto;
+/*	background:green; */
+	}
+	
+#container .box
+	{
+	position:relative;
+	width:calc(400px - 0px);
+	height:calc(400px - 0px);
+	background-color:#0A043C;
+	float:left;
+	left:150px;
+	margin:50px ;
+	box-sizing:border-box;
+	overflow:hidden;
+	border-radius:10px;
+	box-shadow: 0 15px 20px 0 rgba(0, 0, 0, 5), 0 6px 20px 0 rgba(0, 0, 0, 4);
+	
+	}
+
+#container .box .image-a {
+   		position:absolute;
+		content:url("https://media.istockphoto.com/vectors/paper-art-of-light-bulb-creative-doodle-icons-background-vector-id1184779508?k=6&m=1184779508&s=170667a&w=0&h=S8644gRqbYFI3n6WfCelNVX5MC3C-Vb7U7w4iW-sQgg=");
+		top:0;
+		left:-10px;
+		width: 410px;
+		height:400px;
+		transition:0.5s;
+		z-index:1;	
+		
+		}
+	
+	#container .box:hover .image-a{
+		top:5px;
+		left:calc(50% - 45px);
+		width:90px;
+		height:80px;
+		border-radius: 50%;
+		} 
+	
+	#container .box .image-a .fa{
+		position: absolute;
+		top:50%;
+		left:50%;
+		transform: translate(-50%,-50%);
+		font-size:80px;
+		transition:0.5s;
+		color:#fff;
+		}
+		
+	#container .box:hover .image-a .fa{
+		font-size:40px;
+		}
+
+	#container .box .content{           
+       	position:absolute;
+	top:100%;
+	height:calc(100% -100px);
+	text-align:center;
+	padding:20px;
+	transition:0.5s;
+	opacity: 50;		
+	}
+
+	#container .box:hover .content{
+		top:80px;
+		opacity:50;
+		}
+
+	#container .box .content h3{
+	margin:0;
+	padding:0;
+	color:white;
+	font-size:24px;
+	}
+
+	#container .box .content p{
+	margin:5;
+	padding:0;
+	color:white;
+	font-size:14px;
+	}
+
+
+
+
+#container .box .image-d {       /*target second image*/
+   		position:absolute;
+		content:url("mission.png");
+		top:-18px;
+		left:-15px;
+		width: 420px;
+		height:420px;
+		transition:0.5s;
+		z-index:1;	
+		
+		}
+	
+	#container .box:hover .image-d{
+		top:5px;
+		left:calc(50% - 45px);
+		width:90px;
+		height:80px;
+		border-radius: 50%;
+		} 
+	
+	#container .box .image-d .fa{
+		position: absolute;
+		top:50%;
+		left:50%;
+		transform: translate(-50%,-50%);
+		font-size:80px;
+		transition:0.5s;
+		color:#fff;
+		}
+		
+	#container .box:hover .image-d .fa{
+		font-size:40px;
+		}
+
+
+
+
+
+
+
+
+
+	#container .box .image-b {
+   		position:absolute;
+		content:url("people.jpeg");
+		top:0;
+		left:0;
+		width: 400px;
+		height:400px;
+		transition:0.5s;
+		z-index:1;	
+		
+		}
+	
+	#container .box:hover .image-b{
+		top:5px;
+		left:calc(50% - 45px);
+		width:90px;
+		height:80px;
+		border-radius: 50%;
+		} 
+	
+	#container .box .image-b .fa{
+		position: absolute;
+		top:50%;
+		left:50%;
+		transform: translate(-50%,-50%);
+		font-size:80px;
+		transition:0.5s;
+		color:#fff;
+		}
+		
+	#container .box:hover .image-b .fa{
+		font-size:40px;
+		}
+
+
+
+
+
+
+
+	#container .box .image-c {
+   		position:absolute;
+		content:url("https://karierensovetnik.mk/wp-content/uploads/2020/07/Top-sites-to-give-an-edge-to-your-career.png");
+		top:0;
+		left:0px;
+		width: 400px;
+		height:400px;
+		transition:0.5s;
+		z-index:1;	
+		
+		}
+	
+	#container .box:hover .image-c{
+		top:5px;
+		left:calc(50% - 45px);
+		width:90px;
+		height:80px;
+		border-radius: 50%;
+		} 
+	
+	#container .box .image-c .fa{
+		position: absolute;
+		top:50%;
+		left:50%;
+		transform: translate(-50%,-50%);
+		font-size:80px;
+		transition:0.5s;
+		color:#fff;
+		}
+		
+	#container .box:hover .image-c .fa{
+		font-size:40px;
+		}
+
+				/*about section ends here*/
+
+
+						
+						
+
+
+
+
+						/*resource section starts here*/
+
+#resource {
+	position:relative;
+	width:1200px;
+	height:600px;
+	margin:24px auto;
+/*	background:green; */
+	}
+	
+#resource .box
+	{
+	position:relative;
+	width:calc(530px - 30px);
+	height:calc(550px - 30px);
+	background-color:#03506F;
+	float:left;
+	margin:13px ;
+	box-sizing:border-box;
+	overflow:hidden;
+	border-radius:10px;
+	box-shadow: 0 15px 20px 0 rgba(0, 0, 0, 5), 0 6px 20px 0 rgba(0, 0, 0, 4);
+	
+	}
+
+#resource .box .image-a {
+   		position:absolute;
+		content:url("https://www.clio.me/wp-content/uploads/2019/07/int_multimodal-learning_1200_ae.png");
+		top:0;
+		left:-150px;
+		width: 800px;
+		height:530px;
+		transition:0.5s;
+		z-index:1;	
+		
+		}
+	
+	#resource .box:hover .image-a{
+		top:5px;
+		left:calc(50% - 45px);
+		width:90px;
+		height:80px;
+		border-radius: 50%;
+		} 
+	
+	#resource .box .image-a .fa{
+		position: absolute;
+		top:50%;
+		left:50%;
+		transform: translate(-50%,-50%);
+		font-size:80px;
+		transition:0.5s;
+		color:#fff;
+		}
+		
+	#resource .box:hover .image-a .fa{
+		font-size:40px;
+		}
+
+	#resource .box .content{           
+       	position:absolute;
+	top:100%;
+	height:calc(100% -100px);
+	text-align:center;
+	padding:20px;
+	transition:0.5s;
+	opacity: 50;		
+	}
+
+	#resource .box:hover .content{
+		top:80px;
+		opacity:50;
+		}
+
+	#resource .box .content h3{
+	margin:0;
+	padding:0;
+	color:white;
+	font-size:24px;
+	}
+
+	#resource .box .content p{
+	margin:5;
+	padding:0;
+	color:white;
+	font-size:14px;
+	}
+	
+	
+	
+			/*resource section ends here*/
+			
+			
+			
+			
+			/*lab section starts here*/
+
+
+
+#labs {
+	position:relative;
+	width:1200px;
+	height:600px;
+	margin:24px auto;
+	left:70px;
+/*	background:green; */
+	}
+	
+#labs .box
+	{
+	position:relative;
+	width:calc(400px - 30px);
+	height:calc(520px - 30px);
+	background-color:#0A043C;
+	float:right;
+	right:100px;
+	margin:13px ;
+	box-sizing:border-box;
+	overflow:hidden;
+	border-radius:10px;
+	box-shadow: 0 15px 20px 0 rgba(0, 0, 0, 5), 0 6px 20px 0 rgba(0, 0, 0, 4);
+	
+	}
+
+#labs .box .image-a {
+   		position:absolute;
+		content:url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.CBkNuC1sR8gbp7umrzqfAgAAAA%26pid%3DApi&f=1");
+		top:0;
+		left:-10px;
+		width: 390px;
+		height:500px;
+		transition:0.5s;
+		z-index:1;	
+		
+		}
+	
+	#labs .box:hover .image-a{
+		top:5px;
+		left:calc(50% - 45px);
+		width:90px;
+		height:80px;
+		border-radius: 50%;
+		} 
+	
+	#labs .box .image-a .fa{
+		position: absolute;
+		top:50%;
+		left:50%;
+		transform: translate(-50%,-50%);
+		font-size:80px;
+		transition:0.5s;
+		color:#fff;
+		}
+		
+	#labs .box:hover .image-a .fa{
+		font-size:40px;
+		}
+
+	#labs .box .content{           
+       	position:absolute;
+	top:100%;
+	height:calc(100% -100px);
+	text-align:center;
+	padding:20px;
+	transition:0.5s;
+	opacity: 50;		
+	}
+
+	#labs .box:hover .content{
+		top:80px;
+		opacity:50;
+		}
+
+	#labs .box .content h3{
+	margin:0;
+	padding:0;
+	color:white;
+	font-size:24px;
+	}
+
+	#labs .box .content p{
+	margin:5;
+	padding:0;
+	color:white;
+	font-size:14px;
+	}
+
+
+
+			/*lab section ends here*/
+			
+			
+			/*ctf section starts here*/
+			
+#ctf {
+	position:relative;
+	width:1200px;
+	height:600px;
+	margin:24px auto;
+/*	background:green; */
+	}
+	
+#ctf .box
+	{
+	position:relative;
+	width:calc(460px - 30px);
+	height:calc(550px - 30px);
+	background-color:#03506F;
+	float:left;
+	margin:13px ;
+	box-sizing:border-box;
+	overflow:hidden;
+	border-radius:10px;
+	box-shadow: 0 15px 20px 0 rgba(0, 0, 0, 5), 0 6px 20px 0 rgba(0, 0, 0, 4);
+	
+	}
+
+#ctf .box .image-a {
+   		position:absolute;
+		content:url("https://www.hackerone.com/sites/default/files/Icons_CTF_1.png");
+		top:0;
+		left:-130px;
+		width: 700px;
+		height:560px;
+		transition:0.5s;
+		z-index:1;	
+		
+		}
+	
+	#ctf .box:hover .image-a{
+		top:5px;
+		left:calc(50% - 45px);
+		width:90px;
+		height:80px;
+		border-radius: 50%;
+		} 
+	
+	#ctf .box .image-a .fa{
+		position: absolute;
+		top:50%;
+		left:50%;
+		transform: translate(-50%,-50%);
+		font-size:80px;
+		transition:0.5s;
+		color:#fff;
+		}
+		
+	#ctf .box:hover .image-a .fa{
+		font-size:40px;
+		}
+
+	#ctf .box .content{           
+       	position:absolute;
+	top:100%;
+	height:calc(100% -100px);
+	text-align:center;
+	padding:20px;
+	transition:0.5s;
+	opacity: 50;		
+	}
+
+	#ctf .box:hover .content{
+		top:80px;
+		opacity:50;
+		}
+
+	#ctf .box .content h3{
+	margin:0;
+	padding:0;
+	color:white;
+	font-size:24px;
+	}
+
+	#ctf .box .content p{
+	margin:5;
+	padding:0;
+	color:white;
+	font-size:14px;
+	}			
+			
+				/*ctf section ends here*/
+
+
+			/*faq section starts here*/
+#faq {
+	position:relative;
+	width:1200px;
+	height:600px;
+	margin:24px auto;
+/*	background:green; */
+	}
+	
+#faq .box
+	{
+	position:relative;
+	width:calc(400px - 10px);
+	height:calc(500px - 10px);
+	background-color:#0A043C;
+	float:left;
+	left:100px;
+	margin:40px ;
+	box-sizing:border-box;
+	overflow:hidden;
+	border-radius:10px;
+	box-shadow: 0 15px 20px 0 rgba(0, 0, 0, 5), 0 6px 20px 0 rgba(0, 0, 0, 4);
+	}
+
+#faq .box .image-a {
+   		position:absolute;
+		content:url("https://media.mehrnews.com/d/2020/09/07/3/3547859.jpg");
+		top:0;
+		left:-150px;
+		width: 700px;
+		height:500px;
+		transition:0.5s;
+		z-index:1;	
+		
+		}
+	
+	#faq .box:hover .image-a{
+		top:5px;
+		left:calc(50% - 45px);
+		width:90px;
+		height:80px;
+		border-radius: 50%;
+		} 
+	
+	#faq .box .image-a .fa{
+		position: absolute;
+		top:50%;
+		left:50%;
+		transform: translate(-50%,-50%);
+		font-size:80px;
+		transition:0.5s;
+		color:#fff;
+		}
+		
+	#faq .box:hover .image-a .fa{
+		font-size:40px;
+		}
+
+	#faq .box .content{           
+       	position:absolute;
+	top:100%;
+	height:calc(100% -100px);
+	text-align:center;
+	padding:20px;
+	transition:0.5s;
+	opacity: 50;		
+	}
+
+	#faq .box:hover .content{
+		top:80px;
+		opacity:50;
+		}
+
+	#faq .box .content h3{
+	margin:0;
+	padding:0;
+	color:white;
+	font-size:24px;
+	}
+
+	#faq .box .content p{
+	margin:5;
+	padding:0;
+	color:white;
+	font-size:14px;
+	}
+		
+	
+#faq .box .image-b {
+   		position:absolute;
+		content:url("platform.jpeg");
+		top:0;
+		left:0;
+		width: 400px;
+		height:500px;
+		transition:0.5s;
+		z-index:1;	
+		
+		}
+	
+	#faq .box:hover .image-b{
+		top:5px;
+		left:calc(50% - 45px);
+		width:90px;
+		height:80px;
+		border-radius: 50%;
+		} 
+	
+	#faq .box .image-b .fa{
+		position: absolute;
+		top:50%;
+		left:50%;
+		transform: translate(-50%,-50%);
+		font-size:80px;
+		transition:0.5s;
+		color:#fff;
+		}
+		
+	#faq .box:hover .image-b .fa{
+		font-size:40px;
+		}	
+		
+		/*faq section ends here*/
+		
+		/*forum section stars here*/
+		
+		
+		
+		
+#forum {
+	position:relative;
+	width:1200px;
+	height:600px;
+	margin:24px auto;
+/*	background:green; */
+	}
+	
+#forum .box
+	{
+	position:relative;
+	width:calc(400px - 10px);
+	height:calc(500px - 10px);
+	background-color:#0A043C;
+	float:left;
+	left:100px;
+	margin:40px ;
+	box-sizing:border-box;
+	overflow:hidden;
+	border-radius:10px;
+	box-shadow: 0 15px 20px 0 rgba(0, 0, 0, 5), 0 6px 20px 0 rgba(0, 0, 0, 4);
+	}
+
+#forum .box .image-e {
+   		position:absolute;
+		content:url("forum1.jpeg");
+		top:0;
+		left:0px;
+		width: 400px;
+		height:500px;
+		transition:0.5s;
+		z-index:1;	
+		
+		}
+	
+	#forum .box:hover .image-e{
+		top:5px;
+		left:calc(50% - 45px);
+		width:90px;
+		height:80px;
+		border-radius: 50%;
+		} 
+	
+	#forum .box .image-e .fa{
+		position: absolute;
+		top:50%;
+		left:50%;
+		transform: translate(-50%,-50%);
+		font-size:80px;
+		transition:0.5s;
+		color:#fff;
+		}
+		
+	#forum .box:hover .image-e .fa{
+		font-size:40px;
+		}
+
+	#forum .box .content{           
+       	position:absolute;
+	top:100%;
+	height:calc(100% -100px);
+	text-align:center;
+	padding:20px;
+	transition:0.5s;
+	opacity: 50;		
+	}
+
+	#forum .box:hover .content{
+		top:80px;
+		opacity:50;
+		}
+
+	#forum .box .content h3{
+	margin:0;
+	padding:0;
+	color:white;
+	font-size:24px;
+	}
+
+	#forum .box .content p{
+	margin:5;
+	padding:0;
+	color:white;
+	font-size:14px;
+	}
+		
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		/*forum section ends here*/
